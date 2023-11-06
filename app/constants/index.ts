@@ -60,3 +60,26 @@ export const posts = {
     },
   ],
 };
+
+export const externalLinks = [
+  {
+    label: 'Github',
+    link: 'https://github.com/NehemieMbg',
+  },
+  {
+    label: 'LinkedIn',
+    link: 'https://www.linkedin.com/in/nehemie-mombanga',
+  },
+  {
+    label: 'Dribbble',
+    link: 'https://dribbble.com/6nehemie',
+  },
+  {
+    label: 'Behance',
+    link: 'https://www.behance.net/nehemiemombanga1',
+  },
+  {
+    label: 'Contact Me',
+    link: 'mailto:nehemie.mbg@gmail.com',
+  },
+];

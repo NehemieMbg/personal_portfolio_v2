@@ -89,3 +89,51 @@ export const externalLinks = [
     link: 'mailto:nehemie.mbg@gmail.com',
   },
 ];
+
+export const blog = {
+  title: 'Blog',
+  posts: [
+    {
+      title: 'Emerys: A Decentralized exchange application',
+      link: '/blog/emerys-a-decentralized-exchange-application',
+      date: 'Mar 7, 2023',
+      mockup: '/mockups/post-1.png',
+    },
+    {
+      title: 'What happens when we type ls -l *.c in the terminal ?',
+      link: '/blog/what-happens-when-we-type-ls-l-c-in-the-terminal',
+      date: 'Aug 2, 2022',
+      mockup: '/mockups/post-2.jpg',
+    },
+  ],
+};
+
+export const work = {
+  title: 'Work',
+  work: [
+    {
+      title: 'Career Compass',
+      link: 'https://career-compass.ch/',
+      mockup: '/mockups/test-1.webp',
+      description: 'React, Tailwind, Node.js (express), MongoDB',
+    },
+    {
+      title: 'Pulse',
+      link: 'https://pulse-app.ch/',
+      mockup: '/mockups/test-2.webp',
+      description: 'React, Scss, Next.js, Prisma, PostgreSQL',
+    },
+    {
+      title: 'Text Guard',
+      link: 'https://nehemie-textguard.vercel.app/',
+      mockup: '/mockups/test-3.jpg',
+      description: 'React, Tailwind, Next.js, tsup, Changesets',
+    },
+    {
+      title: 'Open Sense',
+      link: 'https://open-sense.ch/',
+      mockup: '/mockups/test-4.jpg',
+      description: 'React, Tailwind, Node.js (express), MongoDB',
+    },
+  ],
+};

@@ -11,3 +11,5 @@ export { default as LinkedInIcon } from './icons/LinkedInIcon';
 export { default as WorkBtn } from './buttons/WorkBtn';
 export { default as WorkCard } from './cards/WorkCard';
 export { default as WorkCard2 } from './cards/WorkCard2';
+export { default as PostCard } from './cards/PostCard';
+export { default as ExternalLinks } from './external-links/ExternalLinks';

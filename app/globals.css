@@ -88,6 +88,10 @@ body {
     grid-auto-rows: min-content;
     grid-template-columns: repeat(2, minmax(1px, 1fr));
     grid-template-rows: repeat(1, min-content);
+
+    @media only screen and (max-width: 768px) {
+      grid-template-columns: repeat(1, minmax(1px, 1fr));
+    }
   }
 
   .work-item {

@@ -47,13 +47,13 @@ const Navbar = () => {
           />
         </Link>
 
-        <div className="hidden fixed -translate-x-[50%] left-1/2 md:flex gap-6 text-sm bg-dark-gray border border-neutral-800 px-6 py-3.5 rounded-full">
+        <div className="hidden fixed z-[100] -translate-x-[50%] left-1/2 md:flex gap-6 text-sm bg-dark-gray border border-neutral-800 px-6 py-3.5 rounded-full">
           {navigation.map((nav) => (
             <Link
               href={nav.path}
               key={nav.label}
-              className={`flex flex-col justify-center items-center gap-1 hover:text-teal-500 transition-colors duration-200
-			${handleNavHighlight(nav.path) && 'text-teal-400'}
+              className={`flex flex-col justify-center items-center gap-1 hover:text-red-400 transition-colors duration-200
+			${handleNavHighlight(nav.path) && 'text-red-400'}
 		  `}
             >
               <span>{nav.label}</span>
@@ -64,7 +64,7 @@ const Navbar = () => {
         <a
           href="mailto:nehemie.mbg@gmail.com"
           target="_blank"
-          className="max-md:hidden font-inter text-sm text-dark-gray bg-teal-500 py-3.5 px-5 rounded-full hover:brightness-90 transition-all duration-200	"
+          className="max-md:hidden font-inter text-sm text-dark-gray bg-red-400 py-3 px-5 rounded-full hover:brightness-90 transition-all duration-200"
         >
           Contact me
         </a>

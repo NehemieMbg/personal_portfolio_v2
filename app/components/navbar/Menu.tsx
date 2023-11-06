@@ -54,6 +54,7 @@ const Menu: React.FC<MenuProps> = ({ isMenuOpen, setIsMenuOpen }) => {
         <div className="flex flex-col gap-2 text-3xl font-light text-neutral-400">
           {navigation.map((nav) => (
             <Link
+              onClick={() => setIsMenuOpen(false)}
               href={nav.path}
               key={nav.label}
               className={`flex items-end gap-4 hover:text-white transition-colors duration-200 w-max

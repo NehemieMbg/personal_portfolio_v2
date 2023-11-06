@@ -6,36 +6,40 @@ export const navigation = [
 ];
 
 export const hero = {
-  title: 'Full-Stack Developer & Design Innovator from Lille',
+  title: 'Full-Stack Developer',
   subtitle:
     "Hi, I'm Nehemie, a Full-Stack Developer weaving robust back-end and intuitive design to craft impactful web apps, aiming to innovate and elevate user experiences.",
 };
 
 export const selectedWork = {
-  title: 'Selected Work',
+  title: 'Selected work',
   more: {
-    label: 'See more work',
+    label: 'See All Work',
     path: '/work',
   },
   work: [
     {
       title: 'Career Compass',
       link: 'https://career-compass.ch/',
+      mockup: '/mockups/test-1.webp',
       description: 'React, Tailwind, Node.js (express), MongoDB',
     },
     {
       title: 'Pulse',
       link: 'https://pulse-app.ch/',
+      mockup: '/mockups/test-2.webp',
       description: 'React, Scss, Next.js, Prisma, PostgreSQL',
     },
     {
       title: 'Text Guard',
       link: 'https://nehemie-textguard.vercel.app/',
+      mockup: '/mockups/test-3.jpg',
       description: 'React, Tailwind, Next.js, tsup, Changesets',
     },
     {
       title: 'Open Sense',
       link: 'https://open-sense.ch/',
+      mockup: '/mockups/test-4.jpg',
       description: 'React, Tailwind, Node.js (express), MongoDB',
     },
   ],

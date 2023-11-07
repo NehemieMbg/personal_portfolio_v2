@@ -47,6 +47,16 @@ body {
     }
   }
 
+  .layout {
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+
+    @media only screen and (max-width: 768px) {
+      gap: 80px;
+    }
+  }
+
   main {
     display: flex;
     flex-direction: column;
@@ -68,7 +78,7 @@ body {
   }
   h2 {
     font-size: 48px;
-    margin-bottom: 56px;
+    margin-bottom: 46px;
   }
 
   h3 {

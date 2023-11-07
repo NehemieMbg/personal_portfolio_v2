@@ -79,6 +79,7 @@ body {
   h2 {
     font-size: 48px;
     margin-bottom: 46px;
+    line-height: 1;
 
     @media only screen and (max-width: 768px) {
       margin-bottom: 32px;

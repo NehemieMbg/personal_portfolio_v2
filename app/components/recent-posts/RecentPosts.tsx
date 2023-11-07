@@ -4,7 +4,7 @@ import PostCard from '../cards/PostCard';
 
 const RecentPosts = () => {
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 max-md:gap-6">
       <div className="flex items-center justify-between font-light">
         <h3>{posts.title}</h3>
         <Link

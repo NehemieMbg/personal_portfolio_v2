@@ -13,7 +13,7 @@ const SelectedWork = () => {
   const work4 = selectedWork.work[3];
 
   return (
-    <section className="flex flex-col gap-10">
+    <section className="flex flex-col gap-10 max-md:gap-6">
       <div className="flex items-center justify-between font-light">
         <h3>{selectedWork.title}</h3>
         <Link

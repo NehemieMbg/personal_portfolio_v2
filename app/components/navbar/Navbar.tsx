@@ -34,7 +34,11 @@ const Navbar = () => {
   return (
     <>
       <nav className="relative max-w-wide w-full mx-auto flex justify-between items-center">
-        <Link
+        <Link href={'/'} className="uppercase font-light">
+          <span className="font-medium text-red-400">Nehemie</span>
+          Mombanga
+        </Link>
+        {/* <Link
           href={'/'}
           className="h-12 w-12 flex items-center justify-center aspect-square rounded-full overflow-hidden bg-neutral-200 hover:scale-105 transition-all duration-200"
         >
@@ -45,7 +49,7 @@ const Navbar = () => {
             alt="Nehemie Mombanga"
             className="scale-110 object-center object-cover -translate-x-[1px] translate-y-[1px]"
           />
-        </Link>
+        </Link> */}
 
         <div className="hidden fixed z-[100] -translate-x-[50%] left-1/2 md:flex gap-6 text-sm bg-dark-gray border border-neutral-800 px-6 py-3.5 rounded-full">
           {navigation.map((nav) => (

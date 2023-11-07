@@ -14,14 +14,14 @@ interface WorkProps {
 const WorkCard2: React.FC<WorkProps> = ({ work }) => {
   return (
     <div className="relative">
-      <div className="work-item relative flex items-center justify-center w-full aspect-[1] h-[661px] bg-neutral-700 overflow-hidden rounded-xl mb-4 hover:filter hover:grayscale transition-all duration-200 ease-in-out">
+      <div className="work-item relative flex items-center justify-center w-full h-[661px] aspect-[1] bg-neutral-700 overflow-hidden rounded-xl mb-4 hover:filter hover:grayscale transition-all duration-200 ease-in-out">
         {work.mockup && (
           <Image
             src={work.mockup}
             alt={work.title}
-            height={372}
-            width={432}
-            className="w-full h-full aspect-auto object-cover object-center absolute z-[10]"
+            height={937}
+            width={703}
+            className="w-full h-full aspect-auto object-contain object-center absolute z-[10]"
           />
         )}
 

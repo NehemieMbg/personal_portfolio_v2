@@ -19,7 +19,7 @@ const WorkCard: React.FC<WorkProps> = ({ work }) => {
           <Image
             src={work.mockup}
             alt={work.title}
-            height={372}
+            height={527}
             width={432}
             className="h-full w-full aspect-auto object-cover object-center absolute z-[10]"
           />

@@ -31,8 +31,8 @@ const SelectedWork = () => {
         </div>
 
         <div className="flex flex-col gap-8">
-          <WorkCard2 work={work3} />
-          <WorkCard work={work4} />
+          <WorkCard2 work={work4} />
+          <WorkCard work={work3} />
         </div>
       </div>
     </section>

@@ -71,7 +71,7 @@ const Navbar = () => {
 
         <button
           onClick={() => setIsMenuOpen(true)}
-          className="hidden h-12 w-12 max-md:flex items-center justify-center aspect-square rounded-full overflow-hidden border border-neutral-800 bg-dark-gray hover:brightness-125 transition-brightness duration-200"
+          className="fixed right-5 hidden h-12 w-12 max-md:flex items-center justify-center aspect-square rounded-full overflow-hidden border border-neutral-800 bg-dark-gray hover:brightness-125 transition-brightness duration-200"
         >
           <Bars2Icon className="w-6" />
         </button>

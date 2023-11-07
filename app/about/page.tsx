@@ -33,7 +33,7 @@ const page = () => {
                 <a
                   href={'mailto:nehemie.mbg@gmail.com'}
                   target="_blank"
-                  className="w-max hover:text-red-400 transition-colors duration-200"
+                  className="w-max hover:text-red-400 transition-colors duration-200 max-md:text-sm"
                 >
                   {about.email}
                 </a>
@@ -46,7 +46,7 @@ const page = () => {
                 <a
                   href={`tel:${about.phone}`}
                   target="_blank"
-                  className="w-max hover:text-red-400 transition-colors duration-200"
+                  className="w-max hover:text-red-400 transition-colors duration-200 max-md:text-sm"
                 >
                   {about.phone}
                 </a>

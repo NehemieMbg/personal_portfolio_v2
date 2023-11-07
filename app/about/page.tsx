@@ -92,7 +92,10 @@ const page = () => {
 
           <div className="flex flex-col gap-8">
             {about.experience.map((experience, index) => (
-              <div key={index} className="flex gap-10 font-light">
+              <div
+                key={index}
+                className="flex gap-10 font-light pb-8 border-b border-b-neutral-800"
+              >
                 <p className="min-w-[240px] text-neutral-400">
                   {experience.date}
                 </p>

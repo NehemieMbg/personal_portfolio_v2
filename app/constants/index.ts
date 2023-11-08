@@ -95,13 +95,13 @@ export const blog = {
   posts: [
     {
       title: 'Emerys: A Decentralized exchange application',
-      link: '/blog/emerys-a-decentralized-exchange-application',
+      link: 'https://medium.com/@nehemie.mbg/emerys-a-decentralized-exchange-application-649229d32163',
       date: 'Mar 7, 2023',
       mockup: '/mockups/post-1.png',
     },
     {
       title: 'What happens when we type ls -l *.c in the terminal ?',
-      link: '/blog/what-happens-when-we-type-ls-l-c-in-the-terminal',
+      link: 'https://medium.com/@nehemie.mbg/what-happens-when-we-type-ls-l-c-in-the-terminal-3ffa4ced4d32',
       date: 'Aug 2, 2022',
       mockup: '/mockups/post-2.jpg',
     },

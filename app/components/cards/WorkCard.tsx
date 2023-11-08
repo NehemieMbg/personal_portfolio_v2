@@ -14,7 +14,11 @@ interface WorkProps {
 const WorkCard: React.FC<WorkProps> = ({ work }) => {
   return (
     <div className="relative">
-      <div className="work-item relative flex items-center justify-center w-full aspect-[1] h-[372px] bg-neutral-700 overflow-hidden rounded-xl mb-4 hover:filter hover:grayscale transition-all duration-200 ease-in-out">
+      <a
+        href={work.link}
+        target="_blank"
+        className="work-item relative flex items-center justify-center w-full aspect-[1] h-[372px] bg-neutral-700 overflow-hidden rounded-xl mb-4 hover:filter hover:grayscale transition-all duration-200 ease-in-out"
+      >
         {work.mockup && (
           <Image
             src={work.mockup}
@@ -26,7 +30,7 @@ const WorkCard: React.FC<WorkProps> = ({ work }) => {
         )}
 
         <WorkBtn />
-      </div>
+      </a>
 
       <div className="flex flex-col gap-1">
         <a

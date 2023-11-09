@@ -13,6 +13,7 @@ interface PostCardProps {
 }
 
 const PostCard: React.FC<PostCardProps> = ({ post }) => {
+  console.log(post.link);
   return (
     <div className="relative">
       <a

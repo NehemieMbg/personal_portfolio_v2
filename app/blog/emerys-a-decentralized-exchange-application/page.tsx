@@ -9,7 +9,7 @@ const page = () => {
         <h2 className="mb-6 max-sm:text-[32px] max-md:text-[40px]">
           {blog.title}
         </h2>
-        <p className="text-neutral-400 font-light text-sm">Mar 7, 2023</p>
+        <p className="text-neutral-400 font-light text-sm">{blog.date}</p>
       </div>
 
       <Image

@@ -13,12 +13,10 @@ interface PostCardProps {
 }
 
 const PostCard: React.FC<PostCardProps> = ({ post }) => {
-  console.log(post.link);
   return (
     <div className="relative">
-      <a
+      <Link
         href={post.link}
-        target="_blank"
         className="work-item relative flex items-center justify-center w-full aspect-[1] h-[240px] bg-neutral-700 overflow-hidden rounded-xl mb-4 hover:filter hover:grayscale transition-all duration-200 ease-in-out"
       >
         {post.mockup && (
@@ -32,7 +30,7 @@ const PostCard: React.FC<PostCardProps> = ({ post }) => {
         )}
 
         <WorkBtn />
-      </a>
+      </Link>
 
       <div className="flex flex-col gap-1">
         <p className="text-sm text-neutral-400 font-light">{post.date}</p>

@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       maxWidth: {
         wide: '1024px',
+        blog: '640px',
       },
       gap: {
         main: '160px',

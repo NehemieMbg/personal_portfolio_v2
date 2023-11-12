@@ -84,6 +84,24 @@ body {
     @media only screen and (max-width: 768px) {
       margin-bottom: 32px;
     }
+
+    @media only screen and (max-width: 479px) {
+      margin-bottom: 32px;
+    }
+  }
+
+  blog-h2 {
+    font-size: 48px;
+    margin-bottom: 46px;
+    line-height: 1;
+
+    @media only screen and (max-width: 768px) {
+      margin-bottom: 40px;
+    }
+
+    @media only screen and (max-width: 479px) {
+      margin-bottom: 32px;
+    }
   }
 
   h3 {

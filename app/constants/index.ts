@@ -128,6 +128,12 @@ export const work = {
       mockup: '/mockups/open-sense.png',
       description: 'React, Tailwind, Node.js (express), MongoDB',
     },
+    {
+      title: 'Loyalty.rc (In progress)',
+      link: 'https://www.loyalty-rc.com/',
+      mockup: '/mockups/loyalty-rc.png',
+      description: 'Next, React, Tailwind, Resend, Prisma(MySQL)',
+    },
   ],
 };
 

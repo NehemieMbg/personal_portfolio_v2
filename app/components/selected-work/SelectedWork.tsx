@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import { selectedWork } from '@/app/constants';
-import { ArrowRightIcon, ArrowUpRightIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
-import WorkBtn from '../buttons/WorkBtn';
+import { work } from '@/app/constants';
 import WorkCard from '../cards/WorkCard';
 import WorkCard2 from '../cards/WorkCard2';
+import WorkCard3 from '../cards/WorkCard3';
 
 const SelectedWork = () => {
   const work1 = selectedWork.work[0];
   const work2 = selectedWork.work[1];
   const work3 = selectedWork.work[2];
   const work4 = selectedWork.work[3];
+  const work5 = work.work[4];
 
   return (
     <section className="flex flex-col gap-10 max-md:gap-6">
@@ -22,6 +22,10 @@ const SelectedWork = () => {
         >
           {selectedWork.more.label}
         </Link>
+      </div>
+
+      <div className="col-span-2 mb-8">
+        <WorkCard3 work={work5} />
       </div>
 
       <div className="work-grid">
